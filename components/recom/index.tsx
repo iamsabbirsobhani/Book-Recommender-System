@@ -96,7 +96,7 @@ export default function Recom() {
   return (
     <>
       <div className="">
-        <h1 className="font-bold text-6xl text-gray-50 text-center mt-[8vh]">
+        <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl text-gray-50 text-center mt-[8vh]">
           Book Recommender System
         </h1>
       </div>
