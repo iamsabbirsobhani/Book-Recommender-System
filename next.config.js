@@ -5,7 +5,10 @@ const nextConfig = {
             {
                 protocol: 'http',
                 hostname: 'images.amazon.com',
-                port: '',
+            },
+            {
+                protocol: 'https',
+                hostname: 'firebasestorage.googleapis.com',
             },
         ],
     },
