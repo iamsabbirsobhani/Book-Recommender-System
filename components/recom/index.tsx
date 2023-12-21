@@ -219,7 +219,7 @@ export default function Recom() {
 
       {/* predict ratings */}
       {recom && !isLoading ? (
-        <div className=" fixed top-0 right-0 bottom-0 left-0 m-auto rounded-sm max-w-md bg-white overflow-y-auto max-h-[35vh] border p-5 break-words break-all">
+        <div className=" fixed top-0 right-0 bottom-0 left-0 m-auto rounded-sm max-w-md bg-white overflow-y-auto max-h-[45vh] border p-5 break-words break-all">
           <div className=" flex justify-between">
             <h3 className=" font-bold text-3xl text-gray-700">Output: </h3>
             <div className=" bg-red-500 text-white p-3 rounded-md">
