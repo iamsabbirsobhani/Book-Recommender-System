@@ -115,15 +115,18 @@ export default function Recom() {
             required
           />
         </div>
+        <div className=" mt-3 bg-blue-500 p-2 rounded-md text-white">
+          <p>Enter USER ID to get the top-10 recommended books for the user.</p>
+        </div>
         <div className=" mt-3 w-full text-center mb-5">
           <button className=" border hover:bg-gray-200 active:bg-gray-400 duration-300 transition-all bg-gray-50 uppercase font-bold p-2  rounded-sm">
             Predict Recommend Books
           </button>
         </div>
-        <div className=" mt-3 bg-blue-500 p-2 rounded-md text-white">
-          <p>Enter USER ID to get the top-10 recommended books for the user.</p>
-        </div>
       </form>
+      <div className="bg-gray-700 font-mono rounded-md mt-3 w-fit m-auto p-2 text-white">
+        <p>Some testing USER IDs: 276847, 276856, 276875, 276925</p>
+      </div>
       <form onSubmit={handleSubmit} className=" max-w-80 m-auto mt-10">
         <div className=" border-dashed border mb-5 mt-5"></div>
         <div className="">
@@ -143,15 +146,21 @@ export default function Recom() {
             placeholder="ISBN"
           />
         </div>
+        <div className=" mt-3 bg-blue-500 p-2 rounded-md text-white">
+          <p>Enter User Id, ISBN and get the probable rating of that book.</p>
+        </div>
         <div className=" mt-3 mb-5 w-full text-center">
           <button className=" border hover:bg-gray-200 active:bg-gray-400 duration-300 transition-all bg-gray-50 uppercase font-bold p-2  rounded-sm">
             Predict Probable Ratings
           </button>
         </div>
-        <div className=" mt-3 bg-blue-500 p-2 rounded-md text-white">
-          <p>Enter User Id, ISBN and get the probable rating of that book.</p>
-        </div>
       </form>
+      <div className=" bg-gray-700 font-mono rounded-md mt-3 w-fit m-auto p-2 text-white">
+        <p>Some testing USER IDs: 276847, 276856, 276875, 276925</p>
+        <p>
+          Some testing ISBN IDs: 0679721851, 063403541X, 1852422580, 044020562X
+        </p>
+      </div>
       <a
         className=" text-blue-500 underline  block text-center mt-3 mb-5 w-fit m-auto"
         target="_blank"
