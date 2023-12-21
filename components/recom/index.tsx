@@ -260,7 +260,7 @@ export default function Recom() {
       )}
 
       <footer>
-        <div className=" flex justify-center items-center mt-[5vh]">
+        <div className=" flex justify-center items-center mt-[5vh] mb-5">
           <p className=" text-gray-400">Made with ❤️ by Sabbir Sobhani</p>
         </div>
       </footer>
